@@ -1,0 +1,29 @@
+html, body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.background {
+  height: 49.8rem;
+  background: linear-gradient(to bottom, #FF6868, #FF3B3B);
+}
+.background .nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background .nav_bar .container__logo {
+  padding: 1rem 1rem;
+}
+.background .nav_bar .list-menu {
+  display: flex;
+}
+.background .nav_bar .list-menu .list-menu__link {
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 1.2rem 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.background .nav_bar .list-menu .list-menu__link.button {
+  margin-right: 4rem;
+}/*# sourceMappingURL=style.css.map */
