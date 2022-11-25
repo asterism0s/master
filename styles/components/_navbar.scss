@@ -3,7 +3,7 @@
 
 .header-background {
      height: 49.8rem;
-     @include bg-color(bottom, $background-color__secundary,$background-color__terciary);
+     @include bg-color(bottom, $background-color__secondary,$background-color__tertiary);
           .nav_bar {
                display: flex;
                align-items: center;
@@ -12,8 +12,8 @@
                .container__logo {
                     padding-right:1.8rem;
                     .logo-zoosk {
-                         max-width: 100%;
-                         height: auto;
+                         width: 2.4rem;
+                         height: 3.2rem;
                     }
                }
                .wrapper-menu {
@@ -22,8 +22,15 @@
                     gap: 0.8rem;
                     .button {
                          padding: 1.2rem 2.4rem;
+                         line-height: 1.8rem;
+                         font-size: 1.4rem;
                          &.button__primary {
                               background: $background-color__quaternary;
+                              color: $font_color__tertiary;
+                              border-radius: 0.4rem;
+                         }
+                         &.button__secondary {
+                              color: $font_color__secondary;
                          }
                     }
                     
