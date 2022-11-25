@@ -1,32 +1,27 @@
 @import '../abstract/variables-and-mixins';
 
 
-.background {
+.header-background {
      height: 49.8rem;
      @include bg-color(bottom, $background-color__secundary,$background-color__terciary);
-     .nav_bar {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          // gap: 3.2rem;
+          .nav_bar {
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               padding: 1.6rem 1.2rem 1.2rem 1.6rem;
                .container__logo {
-                    padding: 1rem 1rem;
+                    padding-right:1.8rem;
                }
                .list-menu {
                     display: flex;
-                    .list-menu__link {
-                         text-decoration: none;
-                         margin-right: 1rem;
+                    align-items: center;
+                    gap: 0.8rem;
+                    .menu-button {
                          padding: 1.2rem 2.4rem;
-                         font-size: 1.4rem;
-                         font-weight: 500;
-                         &.button {
-                                   margin-right: 4rem;
-                              }
+                         
                     }
                }
-     }
+          }
 }
-
 
 
