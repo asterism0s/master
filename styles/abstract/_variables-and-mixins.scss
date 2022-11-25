@@ -4,6 +4,7 @@ $fonts: 'Montserrat', sans-serif;
 //font size
 $font-size__mobile: calc(100vw / 320 * 10); 
 
+
 //colors
 $brand-color__primary: #19B7EA;
 $brand-color__secundary: #FF6868;
@@ -16,10 +17,16 @@ $background-color__quaternary: #FAFAFA;
 $font_color__primary: #27446A;
 $font_color__secondary: #FAFAFA;
 
-//buttons
+//place holders
+%button {
+     $background-color__quaternary:#FAFAFA;
+     
+}
 
 
 //mixins
+
+//bg color
 @mixin bg-color($position, $colors...) {
      @if $position == top {
           background: linear-gradient(to top, $colors)
