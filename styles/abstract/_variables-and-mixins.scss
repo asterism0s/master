@@ -1,28 +1,34 @@
 //fonts
-$fonts: 'Montserrat', sans-serif;
+$font-family__base: 'Montserrat', sans-serif;
 
 //font size
 $font-size__mobile: calc(100vw / 320 * 10); 
 
+//font weight
+$font-weight__bold: 700;
+$font-weight__medium: 500;
+$font-weight__regular: 400;
+$font-weight__light: 300;
+$font-weight__thin: 100;
+
 
 //colors
-$brand-color__primary: #19B7EA;
-$brand-color__secondary: #FF6868;
+$brand-color-primary-pure: #19B7EA; 
+$brand-color-secondary-pure: #FF6868; 
 
-$background-color__primary: #19B7EA;
-$background-color__secondary: #FF6868;
-$background-color__tertiary: #FF3B3B;
-$background-color__quaternary: #FAFAFA;
+$brand-color-primary-dark: #01A2E4;
+$brand-color-secondary-dark: #FF3B3B; 
 
-$font_color__primary: #27446A;
-$font_color__secondary: #FAFAFA;
-$font_color__tertiary: #FF6868;
+$neutral-color-high-light: #FAFAFA;
+$neutral-color-low-dark: #27446A;
+
 
 //place holders
 %button {
      $background-color__quaternary:#FAFAFA;
      
 }
+
 
 
 //mixins

@@ -1,7 +1,7 @@
 @import '../abstract/variables-and-mixins';
 
 html, body {
-     font-family: $fonts;
+     font-family: $font-family__base;
      font-size: $font-size__mobile;
 }
 

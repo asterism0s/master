@@ -1,0 +1,33 @@
+@import '../abstract/variables-and-mixins';
+
+
+.container__background {
+     height: 49.8rem;
+     @include bg-color(bottom, $brand-color-secondary-pure, $brand-color-secondary-dark);
+     .main-banner__image {
+          position: absolute;
+          margin-top: 3.3rem;
+          width: 32.0rem;
+          height: 29.7rem;
+          z-index: 10;
+     }
+     .banner__title {
+          position: absolute;
+          font-size: 3.2rem;
+          padding-bottom: 2.4rem;
+          text-align: center;
+          font-weight: $font-weight__medium;
+          &.outline {
+               margin-top: 25rem;
+               text-align: center;
+               color: #ffffff;
+               z-index: 99;
+               -webkit-text-fill-color: transparent;
+               -webkit-text-stroke: 1px;
+          }
+          &.filled {
+               margin-top: 25rem;
+               z-index: 0;
+          }
+     }
+}
