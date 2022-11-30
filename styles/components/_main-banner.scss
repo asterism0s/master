@@ -4,6 +4,7 @@
 .container__background {
      height: 49.8rem;
      @include bg-color(bottom, $brand-color-secondary-pure, $brand-color-secondary-dark);
+     padding: 0 1.6rem 1rem 1rem;
      .main-banner__image {
           position: absolute;
           margin-top: 3.3rem;
@@ -11,14 +12,14 @@
           height: 29.7rem;
           z-index: 10;
      }
-     .banner__title {
+     .main-banner__title {
           position: absolute;
           font-size: 3.2rem;
           padding-bottom: 2.4rem;
           text-align: center;
           font-weight: $font-weight__medium;
           &.outline {
-               margin-top: 25rem;
+               margin: 25rem 0 0 2rem;
                text-align: center;
                color: #ffffff;
                z-index: 99;
@@ -26,8 +27,39 @@
                -webkit-text-stroke: 1px;
           }
           &.filled {
-               margin-top: 25rem;
+               margin: 25rem 0 0 2rem;
                z-index: 0;
+          }
+     }
+     .main-banner__text {
+          font-size: 1.6rem;
+          font-weight: $font-weight__thin;
+          color: $neutral-color-high-light;
+          line-height: 2.8rem;
+          text-align: center;
+          padding: 30.3rem 1.6rem 2rem 1.6rem;
+     }
+     .container__btn {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.4rem;
+          .button-store {
+               width: 14rem;
+               height: 3.6rem;
+               background: $brand-color-secondary-pure;
+               border-radius: 4%;
+               .button-image {
+                    padding: 0.8rem 2.7rem 0.8rem 2.8rem;
+                    &.button-image-primary {
+                         width: 7.7rem;
+                         height: 2rem;
+                    }
+                    &.button-image-secondary {
+                         width: 8.5rem;
+                         height: 2rem;
+                    }
+               }
           }
      }
 }
