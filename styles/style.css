@@ -43,12 +43,12 @@ a {
 
 .container__background {
   height: 49.8rem;
+  width: 33.5rem;
   background: linear-gradient(to bottom, #FF6868, #FF3B3B);
-  padding: 0 1.6rem 1rem 1rem;
 }
 .container__background .main-banner__image {
   position: absolute;
-  margin-top: 3.3rem;
+  margin: 3.3rem 1rem auto 1rem;
   width: 32rem;
   height: 29.7rem;
   z-index: 10;
@@ -61,15 +61,12 @@ a {
   font-weight: 500;
 }
 .container__background .main-banner__title.outline {
-  margin: 25rem 0 0 2rem;
+  margin: 25rem 1rem 21.9rem 3rem;
   text-align: center;
-  color: #ffffff;
   z-index: 99;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px;
 }
 .container__background .main-banner__title.filled {
-  margin: 25rem 0 0 2rem;
+  margin: 25rem 1rem 21.9rem 3rem;
   z-index: 0;
 }
 .container__background .main-banner__text {
@@ -118,8 +115,15 @@ a {
   text-align: center;
 }
 .container__background-secondary .container__text .fa-heart {
+  font-size: 1.2rem;
   color: #FF6868;
   padding-bottom: 1.8rem;
+}
+.container__background-secondary .container__text .main-banner__text {
+  color: #27446A;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 .container__background-secondary .secondary-banner__image {
   margin-top: 27.8rem;

@@ -7,8 +7,15 @@
           padding: 9rem 3rem 32.4rem 4rem;
           text-align: center;
           .fa-heart {
+               font-size: 1.2rem;
                color: $brand-color-secondary-pure;
                padding-bottom: 1.8rem;
+          }
+          .main-banner__text {
+               color: $neutral-color-low-dark;
+               font-weight: $font-weight__bold;
+               font-size: 1rem;
+               text-transform: uppercase;
           }
      }
      .secondary-banner__image {
