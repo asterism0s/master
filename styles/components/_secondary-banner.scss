@@ -2,25 +2,49 @@
 
 .container__background-secondary {
      height: 49.8rem;
+     width: 32rem;
      background-color: $neutral-color-high-light;
-     .container__text {
-          padding: 9rem 3rem 32.4rem 4rem;
+
+     .container__heading {
           text-align: center;
+          margin: 0 0.4rem;
+
           .fa-heart {
-               font-size: 1.2rem;
-               color: $brand-color-secondary-pure;
-               padding-bottom: 1.8rem;
+          font-size: 1.2rem;
+          color: $brand-color-secondary-pure;
+          padding-top: 9.2rem;
           }
-          .main-banner__text {
-               color: $neutral-color-low-dark;
-               font-weight: $font-weight__bold;
+          .heading__seconday {
                font-size: 1rem;
+               font-weight: $font-weight__bold;
+               color: $neutral-color-low-dark;
+               line-height: 1.6rem;
                text-transform: uppercase;
+               text-align: center;
+               padding-top: 2rem;
           }
+          .heading__primary{
+               font-size: 3.2rem;
+               font-weight: $font-weight__medium;
+               line-height: 4rem;
+               color: $brand-color-primary-pure;
+               text-align: center;
+          }
+          .second-banner-text {
+               font-size: 1.3rem;
+               font-size: $font-weight__regular;
+               line-height: 2.4rem;
+               color: $neutral-color-low-dark;
+               text-align: center;
+               padding: 0.8rem 1.5rem 3.6rem 1.5rem;
+          }
+          
      }
-     .secondary-banner__image {
-          margin-top: 27.8rem;
-          width: 33.4rem;
+     .second-banner__image {
+          position: absolute;
+
+          width: 32rem;
           height: 30rem;
      }
 }
+     

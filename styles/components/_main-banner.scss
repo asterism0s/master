@@ -3,28 +3,24 @@
 
 .container__background {
      height: 49.8rem;
-     width: 33.5rem;
+     width: 32rem;
      @include bg-color(bottom, $brand-color-secondary-pure, $brand-color-secondary-dark);
      .main-banner__image {
           position: absolute;
-          margin: 3.3rem 1rem auto 1rem;
-          width: 32.0rem;
+          margin: 3.3rem 1rem;
+          width: 30rem;
           height: 29.7rem;
           z-index: 10;
      }
      .main-banner__title {
+          width: 28.3rem;
+          height: 4rem;
           position: absolute;
-          font-size: 3.2rem;
-          padding-bottom: 2.4rem;
-          text-align: center;
-          font-weight: $font-weight__medium;
+          margin: 25rem 1.8rem 21.9rem 1.9rem;
           &.outline {
-               margin: 25rem 1rem 21.9rem 3rem;
-               text-align: center;
                z-index: 99;
           }
           &.filled {
-               margin: 25rem 1rem 21.9rem 3rem;
                z-index: 0;
           }
      }
@@ -60,7 +56,7 @@
           }
      }
      .container__chevron-down {
-          padding-top: 4.1rem;
+          padding-top: 2rem;
           color: $neutral-color-high-light;
           text-align: center;
      }
