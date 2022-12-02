@@ -1,0 +1,19 @@
+@import '../abstract/variables-and-mixins';
+
+.container__background-secondary {
+     height: 49.8rem;
+     background-color: $neutral-color-high-light;
+     .container__text {
+          padding: 9rem 3rem 32.4rem 4rem;
+          text-align: center;
+          .fa-heart {
+               color: $brand-color-secondary-pure;
+               padding-bottom: 1.8rem;
+          }
+     }
+     .secondary-banner__image {
+          margin-top: 27.8rem;
+          width: 33.4rem;
+          height: 30rem;
+     }
+}

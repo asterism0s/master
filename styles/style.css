@@ -102,4 +102,27 @@ a {
 .container__background .container__btn .button-store .button-image.button-image-secondary {
   width: 8.5rem;
   height: 2rem;
+}
+.container__background .container__chevron-down {
+  padding-top: 4.1rem;
+  color: #FAFAFA;
+  text-align: center;
+}
+
+.container__background-secondary {
+  height: 49.8rem;
+  background-color: #FAFAFA;
+}
+.container__background-secondary .container__text {
+  padding: 9rem 3rem 32.4rem 4rem;
+  text-align: center;
+}
+.container__background-secondary .container__text .fa-heart {
+  color: #FF6868;
+  padding-bottom: 1.8rem;
+}
+.container__background-secondary .secondary-banner__image {
+  margin-top: 27.8rem;
+  width: 33.4rem;
+  height: 30rem;
 }/*# sourceMappingURL=style.css.map */
