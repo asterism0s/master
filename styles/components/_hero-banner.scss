@@ -1,10 +1,11 @@
 @import '../abstract/variables-and-mixins';
 
 
-.container__background {
+.container__bg-hero {
      height: 49.8rem;
      width: 32rem;
      @include bg-color(bottom, $brand-color-secondary-pure, $brand-color-secondary-dark);
+     
      .main-banner__image {
           position: absolute;
           margin: 3.3rem 1rem;
