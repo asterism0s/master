@@ -4,49 +4,54 @@
      height: 49.8rem;
      width: 32rem;
      background-color: $neutral-color-high-light;
-
-     .container__heading {
-          margin: 0 0.4rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-          
-          .fa-heart {
-          font-size: 1.2rem;
-          color: $brand-color-secondary-pure;
-          padding-top: 9.2rem;
-          }
-          .heading__seconday {
-               font-size: 1rem;
-               font-weight: $font-weight__bold;
+}
+.container__heading {
+     margin: 0 0.4rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     
+     .fa-heart {
+     font-size: 1.2rem;
+     color: $brand-color-secondary-pure;
+     padding-top: 9.2rem;
+     }
+     .heading__secondary {
+          font-size: 1rem;
+          font-weight: $font-weight__bold;
+          line-height: 1.6rem;
+          text-transform: uppercase;
+          padding-top: 2rem;
+          &.heading-features__secondary {
                color: $neutral-color-low-dark;
-               line-height: 1.6rem;
-               text-transform: uppercase;
-               padding-top: 2rem;
           }
-          .heading__primary{
-               font-size: 3.2rem;
-               font-weight: $font-weight__medium;
-               line-height: 4rem;
+     }
+     .heading__primary {
+          font-size: 3.2rem;
+          font-weight: $font-weight__medium;
+          line-height: 4rem;
+          &.heading__features__primary {
                color: $brand-color-primary-pure;
           }
-          .second-banner-text {
-               font-size: 1.3rem;
-               font-size: $font-weight__regular;
-               line-height: 2.4rem;
+     }
+     .second-banner-text {
+          font-size: 1.3rem;
+          font-size: $font-weight__regular;
+          line-height: 2.4rem;
+          padding-bottom: 3.6rem;
+          &.heading__features__text {
                color: $neutral-color-low-dark;
-               padding-bottom: 3.6rem;
           }
-          
      }
-     .second-banner__image {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 32rem;
-          height: 30rem;
-     }
-}
      
+}
+.second-banner__image {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 32rem;
+     height: 30rem;
+     padding-bottom: 3rem;
+}

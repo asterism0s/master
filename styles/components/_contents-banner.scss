@@ -1,1 +1,10 @@
 @import '../abstract/variables-and-mixins';
+@import './features-banner';
+
+.container__bg-contents {
+     margin-top: 9.5rem;
+     height: 49.8rem;
+     width: 32rem;
+     background: url(/img/banner__03.png) no-repeat center;
+}
+
