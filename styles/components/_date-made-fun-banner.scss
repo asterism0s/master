@@ -6,9 +6,13 @@
      background-color: $neutral-color-high-light;
 
      .container__heading {
-          text-align: center;
           margin: 0 0.4rem;
-
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          
           .fa-heart {
           font-size: 1.2rem;
           color: $brand-color-secondary-pure;
@@ -20,7 +24,6 @@
                color: $neutral-color-low-dark;
                line-height: 1.6rem;
                text-transform: uppercase;
-               text-align: center;
                padding-top: 2rem;
           }
           .heading__primary{
@@ -28,19 +31,20 @@
                font-weight: $font-weight__medium;
                line-height: 4rem;
                color: $brand-color-primary-pure;
-               text-align: center;
           }
           .second-banner-text {
                font-size: 1.3rem;
                font-size: $font-weight__regular;
                line-height: 2.4rem;
                color: $neutral-color-low-dark;
-               text-align: center;
-               padding: 0.8rem 1.5rem 3.6rem 1.5rem;
+               padding-bottom: 3.6rem;
           }
           
      }
      .second-banner__image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
           width: 32rem;
           height: 30rem;
      }
