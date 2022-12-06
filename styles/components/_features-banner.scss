@@ -12,18 +12,19 @@
      justify-content: center;
      align-items: center;
      text-align: center;
+     gap: 0.8rem;
      
      .fa-heart {
-     font-size: 1.2rem;
-     color: $brand-color-secondary-pure;
-     padding-top: 9.2rem;
+          font-size: 1.2rem;
+          color: $brand-color-secondary-pure;
+          padding: 9.2rem 0 1.2rem 0;
      }
      .heading__secondary {
           font-size: 1rem;
           font-weight: $font-weight__bold;
           line-height: 1.6rem;
           text-transform: uppercase;
-          padding-top: 2rem;
+          
           &.heading-features__secondary {
                color: $neutral-color-low-dark;
           }
@@ -36,7 +37,7 @@
                color: $brand-color-primary-pure;
           }
      }
-     .features-text {
+     .container-text {
           font-size: 1.3rem;
           font-size: $font-weight__regular;
           line-height: 2.4rem;
@@ -54,4 +55,6 @@
      width: 32rem;
      height: 30rem;
      padding-bottom: 3rem;
+     z-index: 3;
+     position: relative;
 }

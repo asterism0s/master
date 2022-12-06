@@ -115,18 +115,18 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 0.8rem;
 }
 .container__heading .fa-heart {
   font-size: 1.2rem;
   color: #FF6868;
-  padding-top: 9.2rem;
+  padding: 9.2rem 0 1.2rem 0;
 }
 .container__heading .heading__secondary {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.6rem;
   text-transform: uppercase;
-  padding-top: 2rem;
 }
 .container__heading .heading__secondary.heading-features__secondary {
   color: #27446A;
@@ -139,13 +139,13 @@ a {
 .container__heading .heading__primary.heading-features__primary {
   color: #19B7EA;
 }
-.container__heading .features-text {
+.container__heading .container-text {
   font-size: 1.3rem;
   font-size: 400;
   line-height: 2.4rem;
   padding-bottom: 3.6rem;
 }
-.container__heading .features-text.heading-features__text {
+.container__heading .container-text.heading-features__text {
   color: #27446A;
 }
 
@@ -156,6 +156,8 @@ a {
   width: 32rem;
   height: 30rem;
   padding-bottom: 3rem;
+  z-index: 3;
+  position: relative;
 }
 
 .container__bg-features {
@@ -171,18 +173,18 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 0.8rem;
 }
 .container__heading .fa-heart {
   font-size: 1.2rem;
   color: #FF6868;
-  padding-top: 9.2rem;
+  padding: 9.2rem 0 1.2rem 0;
 }
 .container__heading .heading__secondary {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.6rem;
   text-transform: uppercase;
-  padding-top: 2rem;
 }
 .container__heading .heading__secondary.heading-features__secondary {
   color: #27446A;
@@ -195,13 +197,13 @@ a {
 .container__heading .heading__primary.heading-features__primary {
   color: #19B7EA;
 }
-.container__heading .features-text {
+.container__heading .container-text {
   font-size: 1.3rem;
   font-size: 400;
   line-height: 2.4rem;
   padding-bottom: 3.6rem;
 }
-.container__heading .features-text.heading-features__text {
+.container__heading .container-text.heading-features__text {
   color: #27446A;
 }
 
@@ -212,10 +214,19 @@ a {
   width: 32rem;
   height: 30rem;
   padding-bottom: 3rem;
+  z-index: 3;
+  position: relative;
 }
 
 .container__bg-contents {
   margin-top: 9.5rem;
   height: 49.8rem;
   width: 32rem;
+  background: url(/img/banner__03.png);
+  background-repeat: no-repeat;
+  background-size: 32rem 49.8rem;
+  filter: blur(0.3rem);
+}
+.container__bg-contents .heading-contents {
+  color: #FAFAFA;
 }/*# sourceMappingURL=style.css.map */
