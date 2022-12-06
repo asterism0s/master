@@ -6,14 +6,14 @@
      width: 32rem;
      @include bg-color(bottom, $brand-color-secondary-pure, $brand-color-secondary-dark);
      
-     .main-banner__image {
+     .hero-banner__image {
           position: absolute;
           margin: 3.3rem 1rem;
           width: 30rem;
           height: 29.7rem;
           z-index: 10;
      }
-     .main-banner__title {
+     .hero-banner__title {
           width: 28.3rem;
           height: 4rem;
           position: absolute;
@@ -25,7 +25,7 @@
                z-index: 0;
           }
      }
-     .main-banner__text {
+     .hero-banner__text {
           font-size: 1.6rem;
           font-weight: $font-weight__light;
           color: $neutral-color-high-light;

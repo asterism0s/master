@@ -32,16 +32,16 @@
           font-size: 3.2rem;
           font-weight: $font-weight__medium;
           line-height: 4rem;
-          &.heading__features__primary {
+          &.heading-features__primary {
                color: $brand-color-primary-pure;
           }
      }
-     .second-banner-text {
+     .features-text {
           font-size: 1.3rem;
           font-size: $font-weight__regular;
           line-height: 2.4rem;
           padding-bottom: 3.6rem;
-          &.heading__features__text {
+          &.heading-features__text {
                color: $neutral-color-low-dark;
           }
      }
