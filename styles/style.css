@@ -9,6 +9,7 @@ a {
 
 .nav_bar {
   position: fixed;
+  z-index: 99;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -156,8 +157,6 @@ a {
   width: 32rem;
   height: 30rem;
   padding-bottom: 3rem;
-  z-index: 3;
-  position: relative;
 }
 
 .container__bg-features {
@@ -214,8 +213,6 @@ a {
   width: 32rem;
   height: 30rem;
   padding-bottom: 3rem;
-  z-index: 3;
-  position: relative;
 }
 
 .container__bg-contents {
@@ -225,8 +222,16 @@ a {
   background: url(/img/banner__03.png);
   background-repeat: no-repeat;
   background-size: 32rem 49.8rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
   filter: blur(0.3rem);
 }
 .container__bg-contents .heading-contents {
+  position: fixed;
+  left: 0;
+  right: 0;
   color: #FAFAFA;
+  z-index: 99;
 }/*# sourceMappingURL=style.css.map */

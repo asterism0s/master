@@ -8,10 +8,17 @@
      background: url(/img/banner__03.png);
      background-repeat: no-repeat;
      background-size: 32rem 49.8rem;
+     position: fixed;
+     left: 0;
+     right: 0;
+     z-index: 0;
      filter: blur(0.3rem);
           .heading-contents {
-          
-          color: $neutral-color-high-light;
+               position: fixed;
+               left: 0;
+               right: 0;
+               color: $neutral-color-high-light;
+               z-index: 99;
           }
           // .contents-banner__image {
           //      margin-top: 50rem;
