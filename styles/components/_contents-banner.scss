@@ -3,25 +3,21 @@
 
 .container__bg-contents {
      margin-top: 9.5rem;
-     height: 49.8rem;
      width: 32rem;
+     height:53rem;
      background: url(/img/banner__03.png);
      background-repeat: no-repeat;
-     background-size: 32rem 49.8rem;
+     background-size: 32rem 53rem;
      &.bg-transition {
           position: relative;
                &::before {
-               -webkit-backdrop-filter: blur(0.3rem);
-               backdrop-filter: blur(0.3rem);
                position: absolute;
                content: "";
                width: 32rem; 
                height: 9.6rem;
-               @include bg-color(top, #FAFAFF, #FAFA00);
-               z-index: 99;
+               background: $neutral-color-linear-gradient;
+          }
      }
-     }
-     
      &.bg-filter{
           position: relative;
           &::after {
@@ -36,10 +32,18 @@
                z-index: 0;
           }
      }
-     .heading-contents {
+     .container__bg-linear-gradient {
+          padding-top: 11rem;
+          width: 32rem;
+          height:42rem;
+          background: $dark-color-linear-gradient;
+          
+          .heading-contents {
           position: relative;
-          z-index: 1;
+          z-index: 2;
           color: $neutral-color-high-light;
+          }
      }
+     
 }
 
