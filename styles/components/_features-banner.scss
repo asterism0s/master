@@ -24,7 +24,6 @@
           font-weight: $font-weight__bold;
           line-height: 1.6rem;
           text-transform: uppercase;
-          
           &.heading-features__secondary {
                color: $neutral-color-low-dark;
           }
@@ -41,9 +40,9 @@
           font-size: 1.3rem;
           font-size: $font-weight__regular;
           line-height: 2.4rem;
-          padding-bottom: 3.6rem;
           &.heading-features__text {
                color: $neutral-color-low-dark;
+               padding-bottom: 3.6rem;
           }
      }
      

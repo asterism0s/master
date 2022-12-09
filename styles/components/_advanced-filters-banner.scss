@@ -1,0 +1,33 @@
+@import '../abstract/variables-and-mixins';
+@import './features-banner';
+
+.container__bg-advanced-filters {
+     height: 49.8rem;
+     width: 32rem;
+     @include bg-color(bottom, $brand-color-primary-pure, $brand-color-primary-dark);
+}
+
+.heading-advanced-filters {
+     color: $neutral-color-high-light;
+}
+.container__images {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: nowrap;
+     .third-banner__images {
+          width: 4rem;
+          height: 4rem;
+          
+          &.icon-01 {
+               position: absolute;
+               z-index: 1;
+               
+          }
+          &.icon-02 {
+               position: absolute;
+               z-index: 2;
+          }
+     }
+}
