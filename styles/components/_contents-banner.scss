@@ -4,17 +4,18 @@
 .container__bg-contents {
      margin-top: 9.5rem;
      width: 32rem;
-     height:53rem;
+     height: 53rem;
      background: url(/img/banner__03.png);
-     background-repeat: no-repeat;
-     background-size: 32rem 53rem;
+     background-repeat: repeat;
+     background-size: 100%;
+     // overflow: hidden;
      &.bg-transition {
           position: relative;
                &::before {
                position: absolute;
                content: "";
                width: 32rem; 
-               height: 9.6rem;
+               height: 9.7rem;
                background: $neutral-color-linear-gradient;
           }
      }
