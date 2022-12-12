@@ -23,7 +23,7 @@ $neutral-color-high-light: #FAFAFA;
 $neutral-color-low-dark: #27446A;
 
 
-//place holders
+//loops
 %z-index {
      $z-indez: (5, 4, 3, 2, 1);
      @for $i from 1 through 5 {
@@ -55,8 +55,5 @@ $border-images: 0.4rem solid $brand-color-primary-pure;
           background: linear-gradient(to bottom, $colors);
      }
 }
-
-//loop
-
 
 
