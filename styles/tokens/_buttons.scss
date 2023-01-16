@@ -1,0 +1,17 @@
+@import './typography-styles';
+@import './colors';
+
+%btn-store {
+     width: 14rem;
+     height: 3.6rem;
+     background: $brand-color-secondary-pure;
+     border-radius: 4%;
+}
+
+%btn-menu {
+     font-weight: $font-weight__medium;
+     padding: 1.2rem 2.4rem;
+     line-height: 1.8rem;
+     font-size: 1.4rem;
+     border-radius: 0.4rem;
+}    

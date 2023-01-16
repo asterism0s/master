@@ -1,0 +1,35 @@
+@import '../tokens/typography-styles';
+@import '../tokens/buttons';
+
+.nav_bar {
+     position: fixed;
+     z-index: 99;
+     display: flex;
+     align-items: center;
+     gap: 1.35rem;
+     padding: 1.6rem 1.2rem 1.2rem 1.6rem;
+     .container__logo {
+          padding-right:1.8rem;
+          .logo-zoosk {
+               width: 2.4rem;
+               height: 3.2rem;
+          }
+     }
+     .wrapper-menu {
+          display: flex;
+          align-items: center;
+          gap: 0.8rem;
+          .button-menu {
+               @extend %btn-menu;
+               &.button__primary {
+                    background: $neutral-color-high-light;
+                    color: $brand-color-secondary-pure;
+                    
+               }
+               &.button__secondary {
+                    color: $neutral-color-high-light;
+               }
+          }
+          
+     }
+}

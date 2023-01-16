@@ -1,0 +1,20 @@
+@import './typography-styles';
+
+%h1 {
+     font-size: 3.2rem;
+     font-weight: $font-weight__medium;
+     line-height: 4rem;
+}
+
+%h3 {
+     font-size: 1rem;
+     font-weight: $font-weight__bold;
+     line-height: 1.6rem;
+     text-transform: uppercase;
+}
+
+%p {
+     font-size: 1.3rem;
+     font-size: $font-weight__regular;
+     line-height: 2.4rem;
+}

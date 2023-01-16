@@ -1,0 +1,11 @@
+@import './variables-and-mixins';
+@import './typography-styles';
+
+html, body {
+     font-family: $font-family__base;
+     font-size: $font-size__mobile;
+}
+
+a {
+     text-decoration: none;
+}

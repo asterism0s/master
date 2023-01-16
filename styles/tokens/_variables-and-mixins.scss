@@ -1,0 +1,23 @@
+@import './typography-styles';
+@import './colors';
+
+
+
+//border
+$border-images: 0.4rem solid $brand-color-primary-pure;
+
+//modules
+%container-banner {
+     height: 49.8rem;
+     width: 32rem;
+}
+
+
+//mixins
+@mixin bg-color($position, $colors...) {
+     @if $position == top {
+          background: linear-gradient(to top, $colors)
+     } @else {
+          background: linear-gradient(to bottom, $colors);
+     }
+}
