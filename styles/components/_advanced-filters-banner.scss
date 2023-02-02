@@ -2,6 +2,7 @@
 @import '../tokens/typography-modules';
 @import '../tokens/colors';
 @import '../tokens/variables-and-mixins';
+@import '../tokens/containers-modules';
 
 .container__bg-advanced-filters {
      height: 49.8rem;
@@ -18,7 +19,7 @@
      justify-content: center;
      align-items: center;
      flex-wrap: nowrap;
-     .third-banner__images {
+     .advanced-filters__images {
           width: 4rem;
           height: 4rem;
           margin-right: -1.5rem;

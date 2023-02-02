@@ -1,5 +1,6 @@
 @import '../tokens/typography-styles';
 @import '../tokens/typography-modules';
+@import '../tokens/containers-modules';
 
 
 .container__bg-features {
@@ -8,18 +9,9 @@
      background-color: $neutral-color-high-light;
 }
 .container__heading {
-     margin: 0 0.4rem;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-     gap: 0.8rem;
+     @extend %container-module;
      .fa-heart {
-          font-size: 1.2rem;
-          color: $brand-color-secondary-pure;
-          padding: 9.2rem 0 1.2rem 0;
-          z-index: 5;
+          @extend %heart;
      }
      .heading__secondary {
           @extend %h3;
