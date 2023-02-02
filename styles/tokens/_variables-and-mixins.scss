@@ -12,6 +12,20 @@ $border-images: 0.4rem solid $brand-color-primary-pure;
      width: 32rem;
 }
 
+//loops
+%z-index {
+     $z-index: (5, 4, 3, 2, 1);
+     @for $i from 1 through 5 {
+          &.icon-0#{$i}{
+               border: 0.4rem solid $brand-color-primary-pure;
+               border-radius: 50%;
+               z-index: nth($z-index, $i);
+               
+          }
+     }
+}
+
+
 
 //mixins
 @mixin bg-color($position, $colors...) {
