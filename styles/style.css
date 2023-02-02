@@ -192,4 +192,72 @@ a {
   width: 32rem;
   height: 30rem;
   padding-bottom: 3rem;
+}
+
+.container__heading .heading__primary {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4rem;
+}
+
+.container__heading .heading__secondary {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+}
+
+.container__heading .container-text {
+  font-size: 1.3rem;
+  font-size: 400;
+  line-height: 2.4rem;
+}
+
+.container__bg-hero {
+  height: 49.8rem;
+  width: 32rem;
+}
+
+.container__bg-contents {
+  margin-top: 9.5rem;
+  width: 32rem;
+  height: 53rem;
+  background: url(/img/banner__03.png);
+  background-repeat: repeat;
+  background-size: 200%;
+}
+.container__bg-contents.bg-transition {
+  position: relative;
+}
+.container__bg-contents.bg-transition::before {
+  position: absolute;
+  content: "";
+  width: 32rem;
+  height: 9.7rem;
+  background: linear-gradient(0deg, rgba(250, 250, 250, 0) 0%, rgb(255, 255, 255) 100%);
+}
+.container__bg-contents.bg-filter {
+  position: relative;
+}
+.container__bg-contents.bg-filter::after {
+  -webkit-backdrop-filter: blur(0.3rem);
+  backdrop-filter: blur(0.3rem);
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+}
+.container__bg-contents .container__bg-linear-gradient {
+  padding-top: 11rem;
+  width: 32rem;
+  height: 42rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.825) 100%);
+}
+.container__bg-contents .container__bg-linear-gradient .heading-contents {
+  position: relative;
+  z-index: 2;
+  color: #FAFAFA;
 }/*# sourceMappingURL=style.css.map */
