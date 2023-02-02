@@ -1,0 +1,27 @@
+@import '../tokens/typography-styles';
+@import '../tokens/typography-modules';
+@import '../tokens/colors';
+@import '../tokens/variables-and-mixins';
+
+.container__bg-advanced-filters {
+     height: 49.8rem;
+     width: 32rem;
+     @include bg-color(bottom, $brand-color-primary-pure, $brand-color-primary-dark);
+}
+
+.heading-advanced-filters {
+     color: $neutral-color-high-light;
+}
+.container__images {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: nowrap;
+     .third-banner__images {
+          width: 4rem;
+          height: 4rem;
+          margin-right: -1.5rem;
+          @extend %z-index;
+     }
+}
