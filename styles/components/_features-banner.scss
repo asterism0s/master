@@ -1,8 +1,3 @@
-@import '../tokens/typography-styles';
-@import '../tokens/typography-modules';
-@import '../tokens/containers-modules';
-
-
 .container__bg-features {
      @extend %container_bg-module;
      background-color: $neutral-color-high-light;

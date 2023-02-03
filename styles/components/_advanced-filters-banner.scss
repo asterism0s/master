@@ -1,7 +1,3 @@
-@import '../tokens/colors';
-@import '../tokens/heading-mixins';
-@import '../tokens/containers-modules';
-
 .container__bg-advanced-filters {
      @extend %container_bg-module;
      @include bg-color(bottom, $brand-color-primary-pure, $brand-color-primary-dark);

@@ -1,3 +1,33 @@
+.container__bg-hero .container__content .container__btn .button-store {
+  width: 14rem;
+  height: 3.6rem;
+  background: #FF6868;
+  border-radius: 4%;
+}
+
+.nav_bar .wrapper-menu .button-menu {
+  font-weight: 500;
+  padding: 1.2rem 2.4rem;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  border-radius: 0.4rem;
+}
+
+.container__bg-contents .container__bg-linear-gradient .container__heading, .container__heading {
+  margin: 0 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.8rem;
+}
+
+.container__bg-advanced-filters, .container__bg-contents, .container__bg-features, .container__bg-hero {
+  width: 32rem;
+  height: 53rem;
+}
+
 .container__bg-contents .container__bg-linear-gradient .container__heading .heading__primary, .container__heading .heading__primary {
   font-size: 3.2rem;
   font-weight: 500;
@@ -27,6 +57,32 @@
   z-index: 5;
 }
 
+.container__images .icon-01.advanced-filters__images {
+  border: 0.4rem solid #19B7EA;
+  border-radius: 50%;
+  z-index: 5;
+}
+.container__images .icon-02.advanced-filters__images {
+  border: 0.4rem solid #19B7EA;
+  border-radius: 50%;
+  z-index: 4;
+}
+.container__images .icon-03.advanced-filters__images {
+  border: 0.4rem solid #19B7EA;
+  border-radius: 50%;
+  z-index: 3;
+}
+.container__images .icon-04.advanced-filters__images {
+  border: 0.4rem solid #19B7EA;
+  border-radius: 50%;
+  z-index: 2;
+}
+.container__images .icon-05.advanced-filters__images {
+  border: 0.4rem solid #19B7EA;
+  border-radius: 50%;
+  z-index: 1;
+}
+
 html, body {
   font-family: "Montserrat", sans-serif;
   font-size: 3.125vw;
@@ -34,21 +90,6 @@ html, body {
 
 a {
   text-decoration: none;
-}
-
-.container__bg-hero .container__content .container__btn .button-store {
-  width: 14rem;
-  height: 3.6rem;
-  background: #FF6868;
-  border-radius: 4%;
-}
-
-.nav_bar .wrapper-menu .button-menu {
-  font-weight: 500;
-  padding: 1.2rem 2.4rem;
-  line-height: 1.8rem;
-  font-size: 1.4rem;
-  border-radius: 0.4rem;
 }
 
 .nav_bar {
@@ -180,50 +221,6 @@ a {
   text-align: center;
 }
 
-.container__bg-contents .container__bg-linear-gradient .container__heading .heading__primary, .container__heading .heading__primary {
-  font-size: 3.2rem;
-  font-weight: 500;
-  line-height: 4rem;
-  z-index: 2;
-}
-
-.container__bg-contents .container__bg-linear-gradient .container__heading .heading__secondary, .container__heading .heading__secondary {
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.6rem;
-  text-transform: uppercase;
-  z-index: 2;
-}
-
-.container__bg-contents .container__bg-linear-gradient .container__heading .container-text, .container__heading .container-text {
-  font-size: 1.3rem;
-  font-size: 400;
-  line-height: 2.4rem;
-  z-index: 2;
-}
-
-.container__bg-contents .container__bg-linear-gradient .container__heading .fa-heart, .container__heading .fa-heart {
-  font-size: 1.2rem;
-  color: #FF6868;
-  padding: 9.2rem 0 1.2rem 0;
-  z-index: 5;
-}
-
-.container__bg-contents .container__bg-linear-gradient .container__heading, .container__heading {
-  margin: 0 0.4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 0.8rem;
-}
-
-.container__bg-advanced-filters, .container__bg-contents, .container__bg-features, .container__bg-hero {
-  width: 32rem;
-  height: 53rem;
-}
-
 .container__bg-features {
   background-color: #FAFAFA;
 }
@@ -246,21 +243,6 @@ a {
   width: 32rem;
   height: 30rem;
   padding-bottom: 3rem;
-}
-
-.container__bg-contents .container__bg-linear-gradient .container__heading, .container__heading {
-  margin: 0 0.4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 0.8rem;
-}
-
-.container__bg-advanced-filters, .container__bg-contents, .container__bg-hero, .container__bg-features {
-  width: 32rem;
-  height: 53rem;
 }
 
 .container__bg-contents {
@@ -308,21 +290,6 @@ a {
 .container__bg-contents .container__bg-linear-gradient .container__heading .container-text.heading-contents__text {
   color: #FAFAFA;
   padding-bottom: 3.6rem;
-}
-
-.container__heading, .container__bg-contents .container__bg-linear-gradient .container__heading {
-  margin: 0 0.4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 0.8rem;
-}
-
-.container__bg-advanced-filters, .container__bg-hero, .container__bg-features, .container__bg-contents {
-  width: 32rem;
-  height: 53rem;
 }
 
 .container__bg-advanced-filters {
