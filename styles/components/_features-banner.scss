@@ -13,26 +13,8 @@
      .fa-heart {
           @extend %heart;
      }
-     .heading__secondary {
-          @extend %h3;
-          &.heading-features__secondary {
-               color: $neutral-color-low-dark;
-          }
-     }
-     .heading__primary {
-          @extend %h1;
-          &.heading-features__primary {
-               color: $brand-color-primary-pure;
-          }
-     }
-     .container-text {
-          @extend %p;
-          &.heading-features__text {
-               color: $neutral-color-low-dark;
-               padding-bottom: 3.6rem;
-          }
-     }
-     
+     @include style-headings (heading-features,$neutral-color-low-dark, $brand-color-primary-pure, $neutral-color-low-dark)
+
 }
 .second-banner__image {
      display: flex;

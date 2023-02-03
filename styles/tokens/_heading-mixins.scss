@@ -3,26 +3,26 @@
 @import '../tokens/typography-modules';
 
 
-@mixin style-headings ($class-name__primary, $class-name__secondary, $class-name__text) {
-     
+@mixin style-headings ($class-name, $font-color...) {
+
      .heading__secondary {
           @extend %h3;
-          &.#{$class-name__secondary} {
-               color: $neutral-color-high-light;
+          &.#{$class-name}__secondary {
+               color: $font-color;
                
           }
      }
      .heading__primary {
           @extend %h1;
-          &.#{$class-name__primary} {
-               color: $neutral-color-high-light;
+          &.#{$class-name}__primary {
+               color: $font-color;
                
           }
      }
      .container-text {
           @extend %p;
-          &.#{$class-name__text} {
-               color: $neutral-color-high-light;
+          &.#{$class-name}__text {
+               color: $font-color;
                padding-bottom: 3.6rem;
                
           }

@@ -45,28 +45,7 @@
                .fa-heart {
                     @extend %heart;
                }
-               .heading__secondary {
-                    @extend %h3;
-                    &.heading-contents__secondary {
-                         color: $neutral-color-high-light;
-                         
-                    }
-               }
-               .heading__primary {
-                    @extend %h1;
-                    &.heading-contents__primary {
-                         color: $neutral-color-high-light;
-                         
-                    }
-               }
-               .container-text {
-                    @extend %p;
-                    &.heading-contents__text {
-                         color: $neutral-color-high-light;
-                         padding-bottom: 3.6rem;
-                         
-                    }
-               }
+               @include style-headings (heading-contents,$neutral-color-high-light)
                
           }
      }
