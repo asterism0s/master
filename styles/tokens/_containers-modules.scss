@@ -1,4 +1,4 @@
-%container-module {
+%div-container-module {
      margin: 0 0.4rem;
      display: flex;
      flex-direction: column;
@@ -6,4 +6,9 @@
      align-items: center;
      text-align: center;
      gap: 0.8rem;
+}
+
+%container_bg-module {
+     width: 32rem;
+     height: 53rem;
 }

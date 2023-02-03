@@ -1,11 +1,10 @@
 @import '../tokens/colors';
-@import '../tokens/variables-and-mixins';
 @import '../tokens/heading-mixins';
+@import '../tokens/containers-modules';
 
 .container__bg-contents {
+     @extend %container_bg-module;
      margin-top: 9.5rem;
-     width: 32rem;
-     height: 53rem;
      background: url(/img/banner__03.png);
      background-repeat: repeat;
      background-size: 200%;
@@ -41,7 +40,7 @@
           background: $dark-color-linear-gradient;
           
           .container__heading {
-               @extend %container-module;
+               @extend %div-container-module;
                .fa-heart {
                     @extend %heart;
                }

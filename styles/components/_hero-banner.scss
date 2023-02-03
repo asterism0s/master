@@ -1,9 +1,11 @@
-@import '../tokens/typography-styles';
-@import '../tokens/typography-modules';
+@import '../tokens/colors';
+@import '../tokens/heading-mixins';
+@import '../tokens/containers-modules';
+@import '../tokens/variables-and-mixins';
 
 
 .container__bg-hero {
-     @extend %container-banner;
+     @extend %container_bg-module;
      @include bg-color(bottom, $brand-color-secondary-pure, $brand-color-secondary-dark);
      
      .hero-banner__image {

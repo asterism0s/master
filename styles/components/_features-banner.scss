@@ -4,17 +4,34 @@
 
 
 .container__bg-features {
-     height: 49.8rem;
-     width: 32rem;
+     @extend %container_bg-module;
      background-color: $neutral-color-high-light;
 }
 .container__heading {
-     @extend %container-module;
+     @extend %div-container-module;
      .fa-heart {
           @extend %heart;
      }
-     @include style-headings (heading-features,$neutral-color-low-dark, $brand-color-primary-pure, $neutral-color-low-dark)
-
+     .heading__secondary {
+          @extend %h3;
+          &.heading-features__secondary {
+               color: $neutral-color-low-dark;
+          }
+     }
+     .heading__primary {
+          @extend %h1;
+          &.heading-features__primary {
+               color: $brand-color-primary-pure;
+          }
+     }
+     .container-text {
+          @extend %p;
+          &.heading-features__text {
+               color: $neutral-color-low-dark;
+               padding-bottom: 3.6rem;
+          }
+     }
+     
 }
 .second-banner__image {
      display: flex;

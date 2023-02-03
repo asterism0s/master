@@ -1,15 +1,14 @@
-@import '../tokens/variables-and-mixins';
-@import '../tokens/containers-modules';
+@import '../tokens/colors';
 @import '../tokens/heading-mixins';
+@import '../tokens/containers-modules';
 
 .container__bg-advanced-filters {
-     height: 49.8rem;
-     width: 32rem;
+     @extend %container_bg-module;
      @include bg-color(bottom, $brand-color-primary-pure, $brand-color-primary-dark);
 }
 
 .container__heading {
-     @extend %container-module;
+     @extend %div-container-module;
      .fa-heart {
           @extend %heart;
      }

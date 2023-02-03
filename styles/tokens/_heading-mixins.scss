@@ -1,7 +1,4 @@
-@import '../tokens/colors';
-@import '../tokens/typography-styles';
-@import '../tokens/typography-modules';
-
+@import './colors';
 
 @mixin style-headings ($class-name, $font-color...) {
 
