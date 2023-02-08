@@ -8,12 +8,12 @@
      .fa-heart {
           @extend %heart;
      }
-     @include style-headings (heading-advanced-filters,$neutral-color-high-light)
+     @include style-headings ($neutral-color-high-light)
 }
 
-// .container__description {
-//      margin: 0 2rem;
-// }
+.container__description {
+     margin: 0 2rem;
+}
 
 .container__images {
      display: flex;

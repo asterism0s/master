@@ -37,11 +37,10 @@
           
           .container__heading {
                @extend %div-container-module;
+               @include style-headings ($neutral-color-high-light);
                .fa-heart {
                     @extend %heart;
                }
-               @include style-headings (heading-contents,$neutral-color-high-light)
-               
           }
      }
      

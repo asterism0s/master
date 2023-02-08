@@ -1,27 +1,17 @@
 @import './colors';
 
-@mixin style-headings ($class-name, $font-color...) {
+@mixin style-headings ($font-color) {
 
      .heading__secondary {
           @extend %h3;
-          &.#{$class-name}__secondary {
-               color: $font-color;
-               
-          }
+          color: $font-color;
      }
      .heading__primary {
           @extend %h1;
-          &.#{$class-name}__primary {
-               color: $font-color;
-               
-          }
+          color: $font-color;
      }
      .container-text {
           @extend %p;
-          &.#{$class-name}__text {
-               color: $font-color;
-               padding-bottom: 3.6rem;
-               
-          }
+          color: $font-color;
      }
 }
