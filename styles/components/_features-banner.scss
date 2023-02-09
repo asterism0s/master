@@ -3,32 +3,18 @@
      background-color: $neutral-color-high-light;
 }
 .container__heading {
-     @extend %div-container-module;
-     .fa-heart {
-          @extend %heart;
-     }
-     .heading__secondary {
-          @extend %h3;
-          &.heading-features__secondary {
+     .heading-features__secondary {
                color: $neutral-color-low-dark;
           }
-     }
-     .heading__primary {
-          @extend %h1;
-          &.heading-features__primary {
+     .heading-features__primary {
                color: $brand-color-primary-pure;
           }
+     .heading-features__text {
+          color: $neutral-color-low-dark;
+          padding-bottom: 3.6rem;
      }
-     .container-text {
-          @extend %p;
-          &.heading-features__text {
-               color: $neutral-color-low-dark;
-               padding-bottom: 3.6rem;
-          }
-     }
-     
 }
-.second-banner__image {
+.features-banner__image {
      display: flex;
      justify-content: center;
      align-items: center;

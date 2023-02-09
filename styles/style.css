@@ -230,23 +230,22 @@ a {
 .container__heading .container-text {
   color: #FAFAFA;
 }
-
 .container__bg-features {
   background-color: #FAFAFA;
 }
 
-.container__heading .heading__secondary.heading-features__secondary {
+.container__heading .heading-features__secondary {
   color: #27446A;
 }
-.container__heading .heading__primary.heading-features__primary {
+.container__heading .heading-features__primary {
   color: #19B7EA;
 }
-.container__heading .container-text.heading-features__text {
+.container__heading .heading-features__text {
   color: #27446A;
   padding-bottom: 3.6rem;
 }
 
-.second-banner__image {
+.features-banner__image {
   display: flex;
   justify-content: center;
   align-items: center;
