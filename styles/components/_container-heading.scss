@@ -1,0 +1,4 @@
+.container__heading {
+     @extend %div-container-module;
+     @include style-headings ($neutral-color-high-light);
+}

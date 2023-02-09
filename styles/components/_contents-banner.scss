@@ -34,14 +34,6 @@
           width: 32rem;
           height:42rem;
           background: $dark-color-linear-gradient;
-          
-          .container__heading {
-               @extend %div-container-module;
-               @include style-headings ($neutral-color-high-light);
-               .fa-heart {
-                    @extend %heart;
-               }
-          }
      }
      
 }

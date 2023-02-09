@@ -3,16 +3,8 @@
      @include bg-color(bottom, $brand-color-primary-pure, $brand-color-primary-dark);
 }
 
-.container__heading {
-     @extend %div-container-module;
-     .fa-heart {
-          @extend %heart;
-     }
-     @include style-headings ($neutral-color-high-light)
-}
-
-.container__description {
-     margin: 0 2rem;
+.container__advanced-filters-text {
+     margin: 0 1rem;
 }
 
 .container__images {
