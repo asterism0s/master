@@ -1,6 +1,9 @@
+strong {
+  font-weight: 700;
+}
+
 .container__heading .heading__primary {
   font-size: 3.2rem;
-  text-align: center;
   font-weight: 500;
   line-height: 4rem;
   z-index: 2;
@@ -9,7 +12,6 @@
 .heading__secondary, .container__heading .heading__secondary {
   font-size: 1rem;
   font-weight: 700;
-  text-align: center;
   line-height: 1.6rem;
   text-transform: uppercase;
   z-index: 2;
@@ -17,8 +19,7 @@
 
 .container__heading .container-text {
   font-size: 1.3rem;
-  text-align: center;
-  font-size: 400;
+  font-weight: 300;
   line-height: 2.4rem;
   z-index: 2;
 }

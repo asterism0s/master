@@ -12,3 +12,7 @@ $font-weight__medium: 500;
 $font-weight__regular: 400;
 $font-weight__light: 300;
 $font-weight__thin: 100;
+
+strong {
+     font-weight: $font-weight__bold;
+}
