@@ -1,0 +1,29 @@
+
+//border
+$border-images: 0.4rem solid $brand-color-primary-pure;
+
+
+
+//loops
+%z-index {
+     $z-index: (5, 4, 3, 2, 1);
+     @for $i from 1 through 5 {
+          &.icon-0#{$i}{
+               border: 0.4rem solid $brand-color-primary-pure;
+               border-radius: 50%;
+               z-index: nth($z-index, $i);
+               
+          }
+     }
+}
+
+
+
+//mixins
+@mixin bg-color($position, $colors...) {
+     @if $position == top {
+          background: linear-gradient(to top, $colors)
+     } @else {
+          background: linear-gradient(to bottom, $colors);
+     }
+}

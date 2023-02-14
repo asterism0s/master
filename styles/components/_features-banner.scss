@@ -1,53 +1,20 @@
-@import '../abstract/variables-and-mixins';
-
 .container__bg-features {
-     height: 49.8rem;
-     width: 32rem;
+     @extend %container_bg-module;
      background-color: $neutral-color-high-light;
 }
 .container__heading {
-     margin: 0 0.4rem;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-     gap: 0.8rem;
-     .fa-heart {
-          font-size: 1.2rem;
-          color: $brand-color-secondary-pure;
-          padding: 9.2rem 0 1.2rem 0;
-          z-index: 99;
-     }
-     .heading__secondary {
-          font-size: 1rem;
-          font-weight: $font-weight__bold;
-          line-height: 1.6rem;
-          text-transform: uppercase;
-          &.heading-features__secondary {
+     .heading-features__secondary {
                color: $neutral-color-low-dark;
           }
-     }
-     .heading__primary {
-          font-size: 3.2rem;
-          font-weight: $font-weight__medium;
-          line-height: 4rem;
-          &.heading-features__primary {
+     .heading-features__primary {
                color: $brand-color-primary-pure;
           }
+     .heading-features__text {
+          color: $neutral-color-low-dark;
+          padding-bottom: 3.6rem;
      }
-     .container-text {
-          font-size: 1.3rem;
-          font-size: $font-weight__regular;
-          line-height: 2.4rem;
-          &.heading-features__text {
-               color: $neutral-color-low-dark;
-               padding-bottom: 3.6rem;
-          }
-     }
-     
 }
-.second-banner__image {
+.features-banner__image {
      display: flex;
      justify-content: center;
      align-items: center;

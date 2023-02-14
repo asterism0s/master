@@ -1,0 +1,17 @@
+@import './colors';
+
+@mixin style-headings ($font-color) {
+
+     .heading__secondary {
+          @extend %h3;
+          color: $font-color;
+     }
+     .heading__primary {
+          @extend %h1;
+          color: $font-color;
+     }
+     .container-text {
+          @extend %p;
+          color: $font-color;
+     }
+}

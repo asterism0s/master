@@ -1,9 +1,11 @@
-@import '../abstract/variables-and-mixins';
+@import '../tokens/colors';
+@import '../tokens/heading-mixins';
+@import '../tokens/containers-modules';
+@import '../tokens/variables-and-mixins';
 
 
 .container__bg-hero {
-     height: 49.8rem;
-     width: 32rem;
+     @extend %container_bg-module;
      @include bg-color(bottom, $brand-color-secondary-pure, $brand-color-secondary-dark);
      
      .hero-banner__image {
@@ -22,43 +24,47 @@
                z-index: 99;
           }
           &.filled {
-               z-index: 0;
+               z-index: 1;
           }
      }
-     .hero-banner__text {
-          font-size: 1.6rem;
-          font-weight: $font-weight__light;
-          color: $neutral-color-high-light;
-          line-height: 2.8rem;
-          text-align: center;
-          padding: 30.3rem 1.6rem 2rem 1.6rem;
-     }
-     .container__btn {
+     .container__content {
           display: flex;
+          flex-direction: column;
           justify-content: center;
           align-items: center;
-          gap: 0.4rem;
-          .button-store {
-               width: 14rem;
-               height: 3.6rem;
-               background: $brand-color-secondary-pure;
-               border-radius: 4%;
-               .button-image {
-                    padding: 0.8rem 2.7rem 0.8rem 2.8rem;
-                    &.button-image-primary {
-                         width: 7.7rem;
-                         height: 2rem;
-                    }
-                    &.button-image-secondary {
-                         width: 8.5rem;
-                         height: 2rem;
+          flex-wrap: nowrap;
+          gap: 2rem;
+               .hero-banner__text {
+               font-size: 1.6rem;
+               font-weight: $font-weight__light;
+               color: $neutral-color-high-light;
+               line-height: 2.8rem;
+               text-align: center;
+               padding: 30.3rem 1.6rem 0 1.6rem;
+          }
+               .container__btn {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               gap: 0.4rem;
+               .button-store {
+                    @extend %btn-store;
+                    .button-image {
+                         padding: 0.8rem 2.7rem 0.8rem 2.8rem;
+                         &.button-image-primary {
+                              width: 7.7rem;
+                              height: 2rem;
+                         }
+                         &.button-image-secondary {
+                              width: 8.5rem;
+                              height: 2rem;
+                         }
                     }
                }
           }
-     }
-     .container__chevron-down {
-          padding-top: 2rem;
-          color: $neutral-color-high-light;
-          text-align: center;
+          .container__chevron-down {
+               color: $neutral-color-high-light;
+               text-align: center;
+          }
      }
 }

@@ -1,0 +1,28 @@
+%h1 {
+     font-size: 3.2rem;
+     font-weight: $font-weight__medium;
+     line-height: 4rem;
+     z-index: 2;
+}
+
+%h3 {
+     font-size: 1rem;
+     font-weight: $font-weight__bold;
+     line-height: 1.6rem;
+     text-transform: uppercase;
+     z-index: 2;
+}
+
+%p {
+     font-size: 1.3rem;
+     font-size: $font-weight__regular;
+     line-height: 2.4rem;
+     z-index: 2;
+}
+
+%heart {
+     font-size: 1.2rem;
+     color: $brand-color-secondary-pure;
+     padding: 9.2rem 0 1.2rem 0;
+     z-index: 5;
+}
